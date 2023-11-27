@@ -13,38 +13,39 @@ const Carousel = () => {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    arrows: false,
   };
   return (
-    <div>
+    <div className="">
       <Slider {...settings}>
         <div>
           <p className="h4 flex flex-row items-center justify-center gap-3">
-            Lets build something together! <img src={lightning} />
+            Let&apos;s build something together! <img src={lightning} />
           </p>
         </div>
         <div>
           <p className="h4 flex flex-row items-center justify-center gap-3">
-            Lets build something together! <img src={lightning} />
+            Let&apos;s build something together! <img src={lightning} />
           </p>
         </div>
         <div>
           <p className="h4 flex flex-row items-center justify-center gap-3">
-            Lets build something together! <img src={lightning} />
+            Let&apos;s build something together! <img src={lightning} />
           </p>
         </div>
         <div>
           <p className="h4 flex flex-row items-center justify-center gap-3">
-            Lets build something together! <img src={lightning} />
+            Let&apos;s build something together! <img src={lightning} />
           </p>
         </div>
         <div>
           <p className="h4 flex flex-row items-center justify-center gap-3">
-            Lets build something together! <img src={lightning} />
+            Let&apos;s build something together! <img src={lightning} />
           </p>
         </div>
         <div>
           <p className="h4 flex flex-row items-center justify-center gap-3">
-            Lets build something together! <img src={lightning} />
+            Let&apos;s build something together! <img src={lightning} />
           </p>
         </div>
       </Slider>

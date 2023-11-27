@@ -32,7 +32,7 @@ body {
   }
   /* how we can produce */
   .h3_bold {
-    @apply text-white text-2xl font-semibold leading-normal;
+    @apply text-white text-5xl font-medium leading-normal;
   }
   /* let's build */
   .h4 {
@@ -40,24 +40,15 @@ body {
   }
 
   .webflow {
-    @apply text-[var(--T, #676869)] text-2xl font-normal leading-normal;
+    @apply text-[#676869] text-4xl italic font-semibold leading-normal tracking-wide;
   }
 
   .design {
-    font-size: 62px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -6.2px;
-
-    background: var(--Linear, linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @apply text-4xl italic font-semibold leading-normal tracking-wide text-blue-500;
   }
 
   .graphic {
-    @apply text-white text-2xl font-medium leading-normal;
+    @apply text-white text-4xl italic font-semibold leading-normal tracking-wide;
   }
 
   .small_blue_p {
