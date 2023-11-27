@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #050a11;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .logo {
+    @apply text-lg text-white font-medium;
+  }
+
+  /* why us  */
+  .h1 {
+    @apply text-white text-9xl font-bold leading-tight tracking-tighter;
+  }
+  /* real agency  */
+  .h2 {
+    @apply text-white text-8xl font-medium leading-[0.86] tracking-tighter;
+  }
+  .quote_text {
+    @apply text-white text-6xl font-semibold leading-normal tracking-wide;
+  }
+  /* recognise, it"s not about */
+  .h3 {
+    @apply text-white text-2xl font-medium leading-normal;
+  }
+  /* how we can produce */
+  .h3_bold {
+    @apply text-white text-2xl font-semibold leading-normal;
+  }
+  /* let's build */
+  .h4 {
+    @apply text-white text-2xl font-medium leading-normal;
+  }
+
+  .webflow {
+    @apply text-[var(--T, #676869)] text-2xl font-normal leading-normal;
+  }
+
+  .design {
+    font-size: 62px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -6.2px;
+
+    background: var(--Linear, linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .graphic {
+    @apply text-white text-2xl font-medium leading-normal;
+  }
+
+  .small_blue_p {
+    @apply text-blue-500 text-base font-normal leading-[1.4];
+  }
+
+  .small_white_p {
+    @apply text-white text-base font-normal leading-[1.4];
+  }
+
+  .small_gray_p {
+    color: var(--T, #676869);
+
+    /* P D */
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+  }
+
+  .xl_letters {
+    color: var(--T, #fff);
+    text-align: center;
+
+    font-size: 164px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 166px; /* 101.22% */
+    letter-spacing: -13.12px;
+  }
+  .xl_letters_gradient {
+    background: var(--Linear, linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 164px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 166px;
+    letter-spacing: -13.12px;
+  }
+  .xl_letters_blue {
+    color: #0388b4;
+
+    font-size: 164px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 166px;
+    letter-spacing: -13.12px;
+  }
+  .round_green {
+    width: 158px;
+    height: 158px;
+    border-radius: 100%;
+    background: var(--Linear, linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%));
+  }
+  .button {
+    border-radius: 60px;
+    background: #0388b4;
+    width: 150px;
+    height: 40px;
+  }
+  .footer_text {
+    color: #fff;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+  }
+  .copyright_p {
+    color: var(--T, #676869);
+
+    /* P D */
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+  }
+
+  .home_bg {
+    position: relative;
+    background-image: url("./assets/home.svg");
+    height: auto;
+    width: auto;
+    background-position: 80% 30%;
+    background-repeat: no-repeat;
+    background-size: 680px;
+  }
+}
