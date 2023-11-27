@@ -113,6 +113,11 @@ body {
     width: 150px;
     height: 40px;
   }
+
+  .footer_xl_text {
+    @apply text-white text-4xl font-medium leading-normal tracking-tight;
+  }
+
   .footer_text {
     color: #fff;
 
@@ -122,7 +127,7 @@ body {
     line-height: 160%; /* 28.8px */
   }
   .copyright_p {
-    color: var(--T, #676869);
+    color: #676869;
 
     /* P D */
 
