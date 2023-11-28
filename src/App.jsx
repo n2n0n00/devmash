@@ -11,7 +11,7 @@ function App() {
       <Services />
       <Works />
       <CTA />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Services = () => {
         <p className="small_blue_p">Our Services</p>
       </div>
       <div>
-        <h3 className="h3_bold w-[80%] max-[580px]:mb-10">
+        <h3 className="h3_bold w-[90%] max-[580px]:mb-10">
           It&apos;s not about what we make, it&apos;s about how satisfied you
           are with our service
         </h3>
