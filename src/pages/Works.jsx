@@ -5,7 +5,7 @@ const Works = () => {
     <div className="mx-[10%] flex flex-col gap-20">
       <div className="flex flex-col">
         <p className="small_blue_p">Our Works</p>
-        <h3 className="h3_bold w-[870px]">
+        <h3 className="h3_bold w-[70%]">
           How we can produce work that you are interested in
         </h3>
       </div>

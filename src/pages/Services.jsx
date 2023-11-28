@@ -7,12 +7,12 @@ const Services = () => {
         <p className="small_blue_p">Our Services</p>
       </div>
       <div>
-        <h3 className="h3_bold w-[1000px]">
+        <h3 className="h3_bold w-[80%] max-[580px]:mb-10">
           It&apos;s not about what we make, it&apos;s about how satisfied you
           are with our service
         </h3>
       </div>
-      <div className="flex flex-wrap gap-20 w-[100%] mt-[5%] justify-center">
+      <div className="flex flex-wrap gap-20 max-[820px]:gap-10 max-[580px]:gap-5 w-[100%] mt-[5%] justify-center">
         <p className="graphic">
           Graphic <span className="design">Design</span>
         </p>

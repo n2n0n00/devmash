@@ -21,10 +21,10 @@ body {
   }
   /* real agency  */
   .h2 {
-    @apply text-white text-8xl font-medium leading-[0.86] tracking-tighter;
+    @apply text-white text-center font-bold text-7xl leading-tight tracking-tighter max-[406px]:text-5xl;
   }
   .quote_text {
-    @apply text-white text-6xl font-semibold leading-normal tracking-wide;
+    @apply text-white text-6xl font-semibold leading-normal tracking-wide max-sm:text-4xl;
   }
   /* recognise, it"s not about */
   .h3 {
@@ -32,23 +32,23 @@ body {
   }
   /* how we can produce */
   .h3_bold {
-    @apply text-white text-5xl font-medium leading-normal;
+    @apply text-white text-5xl font-medium leading-normal max-[880px]:text-4xl max-[420px]:text-2xl;
   }
   /* let's build */
   .h4 {
-    @apply text-white text-2xl font-medium leading-normal;
+    @apply text-white text-2xl font-medium leading-normal max-[420px]:text-base;
   }
 
   .webflow {
-    @apply text-[#676869] text-4xl italic font-semibold leading-normal tracking-wide;
+    @apply text-[#676869] text-4xl italic font-semibold leading-normal tracking-wide max-[580px]:text-2xl;
   }
 
   .design {
-    @apply text-4xl italic font-semibold leading-normal tracking-wide text-blue-500;
+    @apply text-4xl italic font-semibold leading-normal tracking-wide text-blue-500 max-[580px]:text-2xl;
   }
 
   .graphic {
-    @apply text-white text-4xl italic font-semibold leading-normal tracking-wide;
+    @apply text-white text-4xl italic font-semibold leading-normal tracking-wide max-[580px]:text-2xl;
   }
 
   .small_blue_p {
@@ -144,6 +144,80 @@ body {
     width: auto;
     background-position: 80% 30%;
     background-repeat: no-repeat;
-    background-size: 680px;
+    background-size: 620px;
+  }
+
+  @media only screen and (max-width: 821px) {
+    .home_bg {
+      background-size: 400px;
+    }
+
+    .xl_letters {
+      font-size: 100px;
+      letter-spacing: -8px;
+      line-height: 102px;
+    }
+    .xl_letters_gradient {
+      font-size: 100px;
+      letter-spacing: -8px;
+      line-height: 102px;
+    }
+    .xl_letters_blue {
+      font-size: 100px;
+      letter-spacing: -8px;
+      line-height: 102px;
+    }
+    .round_green {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .home_bg {
+      background-size: 400px;
+    }
+
+    .xl_letters {
+      font-size: 50px;
+      letter-spacing: -1px;
+      line-height: 52px;
+    }
+    .xl_letters_gradient {
+      font-size: 50px;
+      letter-spacing: -1px;
+      line-height: 52px;
+    }
+    .xl_letters_blue {
+      font-size: 50px;
+      letter-spacing: -1px;
+      line-height: 52px;
+    }
+    .round_green {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    .xl_letters {
+      font-size: 30px;
+      letter-spacing: -1px;
+      line-height: 32px;
+    }
+    .xl_letters_gradient {
+      font-size: 30px;
+      letter-spacing: -1px;
+      line-height: 32px;
+    }
+    .xl_letters_blue {
+      font-size: 30px;
+      letter-spacing: -1px;
+      line-height: 32px;
+    }
+    .round_green {
+      width: 30px;
+      height: 30px;
+    }
   }
 }
